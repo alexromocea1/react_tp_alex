@@ -42,7 +42,7 @@ export default class Todoadd extends Component{
                         onChange={(event) => this.handleChange(event)}/>
                 </div>
                 <div className="form-group">
-                    <label>Complété?</label>
+                    <label>Status de la tâche</label>
                     <textarea id="completed" rows="5" className="form-control" required
                         onChange={(event) => this.handleChange(event)}/>
                 </div>

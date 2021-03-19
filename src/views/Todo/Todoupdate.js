@@ -55,6 +55,8 @@ export default class Todoupdate extends Component{
                     <label>Status</label>
                     <textarea id="completed" rows="5" className="form-control" required value={completed} onChange={(e) => this.handleChange(e)}/>
                 </div>
+                
+
                 <button type="submit" className="btn btn-primary">Modifier</button>
             </form>
 
